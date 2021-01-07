@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SaitamaRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from Ultra max import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater)
 # needed to dynamically load modules
@@ -52,8 +52,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+Hello i am ultra max. Devloped by @pranavjha1
+I am superb bot. Made for owner and admins of group. Feel free to add me. Dont forget to make me admin.
 You can find my list of available commands with /help.
 """
 
@@ -77,12 +77,8 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f135c165116bc90db207d.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -200,17 +196,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Saitama to your group",
+                            text="☑️ Add Ultra max to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/{ultramax_ping}"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
-                             url="https://t.me/OnePunchUpdates")
+                             url="https://t.me/ultramaxupdates")
                      ],
                      [
                          InlineKeyboardButton(
