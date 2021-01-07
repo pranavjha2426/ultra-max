@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-Devloped by @pranavjha1. Fell free to add me to your groups. 
+Devloped by @pranavjha1. Feel free to add me to your groups. If you face any issue just leave us Message at @ultramax_ping 
 You can find my list of available commands with /help.
 """
 
