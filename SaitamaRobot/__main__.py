@@ -53,7 +53,6 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 Hello i am ultra max. Devloped by @pranavjha1
-I am superb bot. Made for owner and admins of group. Feel free to add me. Dont forget to make me admin.
 You can find my list of available commands with /help.
 """
 
@@ -77,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/f135c165116bc90db207d.jpg"
+ULTRAMAX_IMG = "https://telegra.ph/file/e5e1f7ad34c3d91c13ca2.jpg"
 
 
 IMPORTED = {}
@@ -187,7 +186,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                SAITAMA_IMG,
+                ULTRAMAX_IMG_IMG,
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
                     escape_markdown(context.bot.first_name)),
@@ -203,20 +202,20 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{ultramax_ping}"),
+                             url=f"https://t.me/ultramax_ping"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
                              url="https://t.me/ultramaxupdates")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🧾 Getting started guide",
-                             url="https://t.me/OnePunchUpdates/29")
+                             text="Developer",
+                             url="https://t.me/PranavJha1")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
+                             url="https://github.com/pranavjha2426/SaitamaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
