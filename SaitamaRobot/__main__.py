@@ -75,7 +75,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ULTRAMAX_IMG = "https://telegra.ph/file/e5e1f7ad34c3d91c13ca2.jpg"
+ULTRAMAX_IMG = "https://telegra.ph/file/b89456883c5812c5fcd6d.jpg"
 
 
 IMPORTED = {}
