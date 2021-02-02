@@ -213,8 +213,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/pranavjha2426/SaitamaRobot")
+                             text="😉 Source code",
+                             url="https://github.com/pranavjha2426/ultra-max/tree/master")
                      ]]))
     else:
         update.effective_message.reply_text(
